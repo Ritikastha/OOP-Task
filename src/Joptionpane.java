@@ -64,21 +64,17 @@ class Area{
 
     }
 }
-//class interestt{
-//    public static void main(String[] args)
-//    {
-//        Scanner scanner=new Scanner(System.in);
-//        System.out.println("enter your name");
-//        String name= scanner.nextLine();
-//        System.out.println("Enter your roll no");
-//        String rollno= scanner.nextLine();
-//        System.out.println("enter your field of interest");
-//        String interest= scanner.nextLine();
-//        int R=Integer.parseInt(rollno);
-//        JOptionPane.showInputDialog("My name is "+name+"and my roll no is"+R+"My field of interest is"+interest);System.exit(0);
-//
-//    }
-//}
+class interestt{
+    public static void main(String[] args)
+    {
+        String name=JOptionPane.showInputDialog(null,"enter name");
+        String roll=JOptionPane.showInputDialog(null,"enter roll no");
+        String interest=JOptionPane.showInputDialog(null,"enter interest");
+
+        JOptionPane.showInputDialog("My name is "+name+"and my roll no is"+roll+"My field of interest is"+interest);System.exit(0);
+
+    }
+}
 class sq {
     public static void main(String[] args) {
         float l,p,t,r,b,h,areaofsq,SI,perimeter,volofcube,volofcuboid,areaoftri;
