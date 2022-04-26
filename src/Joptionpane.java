@@ -46,10 +46,13 @@ class div{
         b=Integer.parseInt(JOptionPane.showInputDialog(null,"Enter 2nd num"));
         sum=a+b;
         product=a*b;
-        division=sum/product;
+        double castedsum= (double)(sum);
+        double castedproduct= (double)(product);
+        double castedfinal= castedsum/castedproduct;
+
         JOptionPane.showInputDialog(null,"sum is:"+sum);
         JOptionPane.showInputDialog(null,"product is:"+product);
-        JOptionPane.showInputDialog(null,"division  is:"+division);
+        JOptionPane.showInputDialog(null,"division  is:"+castedfinal);
 
     }
 
